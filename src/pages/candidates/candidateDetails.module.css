@@ -1,0 +1,62 @@
+/* 1) Flex 2) Grid */
+/* 
+ * *
+ * *
+*/
+
+.candidate__grid {
+  display: grid;
+  grid-template-areas:
+    "candidate form"
+    "formation formation";
+  gap: 5px;
+}
+
+.candidate__section {
+  grid-area: candidate;
+}
+
+.form__formation {
+  grid-area: form;
+}
+
+.list__formation {
+  grid-area: formation;
+}
+
+.candidate__applications {
+  color: blue;
+  text-decoration: underline;
+  margin: 20px;
+}
+
+.candidate__name {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: start;
+  margin: 0;
+}
+
+.candidate__email {
+  text-decoration: underline;
+  margin: 0;
+  color: blue;
+  text-align: start;
+}
+
+.candidate__email:hover {
+  transform: scale(1);
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+
+.candidate__summary {
+  margin: 15px;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  font-style: italic;
+  text-align: start;
+}

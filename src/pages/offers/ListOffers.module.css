@@ -1,0 +1,32 @@
+.offer__title {
+  font-weight: bolder;
+  font-size: 2rem;
+  text-shadow: 10px 10px 20px black;
+}
+
+.offer__date {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-shadow: 10px 10px 20px black;
+}
+
+.offer__description {
+  font-style: normal;
+  font-size: 1.5rem;
+  text-shadow: 10px 10px 20px black;
+}
+
+.offer__company {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-shadow: 10px 10px 20px black;
+}
+
+.offer__btn_apply {
+  width: 100px;
+  margin-top: 10px;
+  padding: 1rem 0px 1rem 0px;
+  background-color: rgb(13, 71, 161);
+  color: white;
+  box-shadow: 10px 10px 20px black;
+}

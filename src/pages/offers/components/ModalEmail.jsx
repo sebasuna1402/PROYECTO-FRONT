@@ -56,6 +56,7 @@ export const ModalEmail = ({ open, onClose }) => {
     const offer = {
       candidatesId: candidate.id,
       offersId: offerContext.id,
+       email: candidate.email
     };
     setOfferMutation.mutate(offer);
 

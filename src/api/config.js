@@ -2,7 +2,7 @@ import axios from "axios";
 
 const api = axios.create({
   baseURL:
-    "https://una-jobs-api.orangepond-70a3d77d.westus2.azurecontainerapps.io/api",
+    "https://localhost:7048/api",
 });
 
 const removeData = async (id) => {
